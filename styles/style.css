@@ -89,6 +89,8 @@ header__address {
 
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 100px 0 140px;
   display: flex;
   flex-direction: column;
@@ -116,10 +118,10 @@ header__address {
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px;
+  margin-top: 68px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 40px;
   list-style-type: none;
   padding-left: 0;
